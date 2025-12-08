@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bashfeeq Ventures",
+  title: "Bash-feeq Ventures",
   description: "A pest control service in Nigeria.",
 };
 

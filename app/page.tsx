@@ -23,7 +23,7 @@ export default function HomePage() {
                 </span>
               </h1>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Bashfeeq Ventures provides comprehensive facility maintenance
+                Bash-feeq Ventures provides comprehensive facility maintenance
                 and pest control services with decades of industry expertise.
                 Your satisfaction is our priority.
               </p>

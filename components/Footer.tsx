@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <h3 className="text-xl font-bold text-[#DE7B60] mb-4">
-              Bashfeeq Ventures
+              Bash-feeq Ventures
             </h3>
             <p className="text-gray-300 text-sm">
               Quality service guaranteed. Professional facility maintenance and
@@ -92,7 +92,15 @@ export default function Footer() {
               <div className="flex gap-2">
                 <MapPin size={18} className="text-[#DE7B60] shrink-0" />
                 <span className="text-gray-300 text-sm">
-                  123 Business Ave, Suite 100
+                  Central mosques along 200 Acres Onigbogbo atan otta, Ogun
+                  state.
+                </span>
+              </div>
+              <div className="flex gap-2">
+                <MapPin size={18} className="text-[#DE7B60] shrink-0" />
+                <span className="text-gray-300 text-sm">
+                  Address 2: Central mosques along 200 Acres Onigbogbo atan
+                  otta, Ogun state.
                 </span>
               </div>
             </div>
@@ -102,7 +110,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              &copy; 2025 Bashfeeq Ventures. All rights reserved.
+              &copy; 2025 Bash-feeq Ventures. All rights reserved.
             </p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <Link

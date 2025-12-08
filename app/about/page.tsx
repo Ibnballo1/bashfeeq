@@ -10,7 +10,7 @@ export default function AboutPage() {
       <section className="bg-linear-to-br from-white via-[#FEFDFD] to-[#E3B5B8]/10 pt-20 pb-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">
-            About Bashfeeq Ventures
+            About Bash-feeq Ventures
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl">
             Your trusted partner in facility maintenance and pest control
@@ -26,7 +26,7 @@ export default function AboutPage() {
             <div className="relative h-96 bg-[#E3B5B8]/20 rounded-lg overflow-hidden shadow-lg">
               <Image
                 src="/professional-facility-maintenance-service.png"
-                alt="Bashfeeq Ventures team"
+                alt="Bash-feeq Ventures team"
                 fill
                 className="object-cover"
               />
@@ -36,7 +36,7 @@ export default function AboutPage() {
                 Who We Are
               </h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Bashfeeq Ventures is a leading provider of facility maintenance
+                Bash-feeq Ventures is a leading provider of facility maintenance
                 and pest control services. With over two decades of experience,
                 we have established ourselves as a trusted partner for
                 businesses and organizations seeking reliable, professional

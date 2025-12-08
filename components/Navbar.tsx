@@ -21,11 +21,11 @@ export default function Navbar() {
           >
             <Image
               src="/logo.png"
-              alt="Bashfeeq Ventures Logo"
+              alt="Bash-feeq Ventures Logo"
               width={50}
               height={50}
             />
-            Bashfeeq Ventures
+            Bash-feeq Ventures
           </Link>
 
           {/* Desktop Navigation */}
