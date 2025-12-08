@@ -1,9 +1,9 @@
-import { Droplets, Package, Wrench, Zap } from "lucide-react";
+import { FlaskRound, Wrench, Zap, BugOff, SprayCan, Cog } from "lucide-react";
 
 export const services = [
   {
     id: "pest-control",
-    icon: Droplets,
+    icon: BugOff,
     title: "Pest Control",
     description: "Comprehensive pest management solutions",
     details: [
@@ -17,7 +17,7 @@ export const services = [
   },
   {
     id: "fumigation",
-    icon: Zap,
+    icon: SprayCan,
     title: "Fumigation",
     description: "Professional fumigation and disinfection services",
     details: [
@@ -31,7 +31,7 @@ export const services = [
   },
   {
     id: "maintenance",
-    icon: Wrench,
+    icon: Cog,
     title: "Facility Maintenance",
     description: "Complete facility upkeep and management",
     details: [
@@ -45,7 +45,7 @@ export const services = [
   },
   {
     id: "chemical-supply",
-    icon: Package,
+    icon: FlaskRound,
     title: "Chemical & Safety Supply",
     description: "Quality chemicals and safety equipment",
     details: [

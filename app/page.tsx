@@ -6,6 +6,7 @@ import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { services } from "@/config/services";
+import { equipment } from "@/config/equipments-data";
 
 export default function HomePage() {
   return (
@@ -102,6 +103,44 @@ export default function HomePage() {
                 <ChevronRight size={20} />
               </Link>
             </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Equipment Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              Our Equipment
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              We utilize state-of-the-art fumigation and cleaning equipment to
+              deliver superior results and ensure safety for our clients
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {equipment.map((item) => (
+              <div
+                key={item.id}
+                className="group relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow"
+              >
+                <div className="relative h-64 bg-gray-200">
+                  <Image
+                    src={item.image || "/placeholder.svg"}
+                    alt={item.name}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                  <h3 className="text-white font-semibold text-lg">
+                    {item.name}
+                  </h3>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
