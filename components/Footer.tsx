@@ -99,8 +99,7 @@ export default function Footer() {
               <div className="flex gap-2">
                 <MapPin size={18} className="text-[#DE7B60] shrink-0" />
                 <span className="text-gray-300 text-sm">
-                  Address 2: Central mosques along 200 Acres Onigbogbo atan
-                  otta, Ogun state.
+                  2, Okemedu Street, off Coconut Snake island Apapa Lagos.
                 </span>
               </div>
             </div>

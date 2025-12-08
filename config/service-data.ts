@@ -1,4 +1,4 @@
-import { FlaskRound, Wrench, Zap, BugOff, SprayCan, Cog } from "lucide-react";
+import { FlaskRound, BugOff, SprayCan, Cog } from "lucide-react";
 
 export const services = [
   {

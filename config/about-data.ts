@@ -22,7 +22,6 @@ export const values = [
 ];
 
 export const highlights = [
-  //   "Over 20 years of industry experience",
   "Licensed and certified professionals",
   "Eco-friendly and sustainable practices",
   "Comprehensive service coverage",

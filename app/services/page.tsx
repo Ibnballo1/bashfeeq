@@ -16,7 +16,7 @@ export default function ServicesPage() {
   return (
     <main>
       {/* Hero */}
-      <section className="bg-linear-to-br from-white via-[#FEFDFD] to-[#E3B5B8]/10 pt-20 pb-12">
+      <section className="bg-gradient-to-br from-white via-[#FEFDFD] to-[#E3B5B8]/10 pt-20 pb-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">
             Our Services

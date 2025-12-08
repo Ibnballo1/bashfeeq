@@ -12,7 +12,7 @@ export default function HomePage() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="bg-linear-to-br from-white via-[#FEFDFD] to-[#E3B5B8]/10 pt-20 pb-20">
+      <section className="bg-gradient-to-br from-white via-[#FEFDFD] to-[#E3B5B8]/10 pt-20 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>

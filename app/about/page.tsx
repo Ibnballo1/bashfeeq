@@ -7,7 +7,7 @@ export default function AboutPage() {
   return (
     <main>
       {/* Hero */}
-      <section className="bg-linear-to-br from-white via-[#FEFDFD] to-[#E3B5B8]/10 pt-20 pb-12">
+      <section className="bg-gradient-to-br from-white via-[#FEFDFD] to-[#E3B5B8]/10 pt-20 pb-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">
             About Bash-feeq Ventures
@@ -37,10 +37,9 @@ export default function AboutPage() {
               </h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
                 Bash-feeq Ventures is a leading provider of facility maintenance
-                and pest control services. With over two decades of experience,
-                we have established ourselves as a trusted partner for
-                businesses and organizations seeking reliable, professional
-                solutions.
+                and pest control services. We have established ourselves as a
+                trusted partner for businesses and organizations seeking
+                reliable, professional solutions.
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Our team of certified professionals is dedicated to delivering
