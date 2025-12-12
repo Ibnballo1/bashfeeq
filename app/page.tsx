@@ -24,7 +24,7 @@ export default function HomePage() {
                 </span>
               </h1>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Bash-feeq Ventures provides comprehensive facility maintenance
+                Bash-Feeq Ventures provides comprehensive facility management
                 and pest control services with decades of industry expertise.
                 Your satisfaction is our priority.
               </p>
@@ -44,10 +44,10 @@ export default function HomePage() {
                 </Button>
               </div>
             </div>
-            <div className="relative h-96 bg-[#E3B5B8]/20 rounded-lg overflow-hidden shadow-lg">
+            <div className="relative h-full bg-[#E3B5B8]/20 rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/professional-facility-maintenance-service.png"
-                alt="Professional facility maintenance"
+                src="/pest-extermination.jpg"
+                alt="Professional management"
                 fill
                 className="object-cover"
               />
@@ -120,7 +120,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {equipment.map((item) => (
               <div
                 key={item.id}

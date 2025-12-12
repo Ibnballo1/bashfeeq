@@ -6,7 +6,7 @@ export const equipment = [
   },
   {
     id: 2,
-    name: "Industrial Cleaning Sprayers",
+    name: "Knapsack Sprayer",
     image: "/sprayer.jpeg",
   },
   {
@@ -16,7 +16,12 @@ export const equipment = [
   },
   {
     id: 4,
-    name: "Facility Maintenance Tools",
+    name: "Facility Management Tools",
     image: "/surface-cleaner.jpeg",
+  },
+  {
+    id: 5,
+    name: "Extermination of pest Using hot fogger machine",
+    image: "/pest-extermination.jpg",
   },
 ];

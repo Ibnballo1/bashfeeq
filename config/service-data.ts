@@ -32,7 +32,7 @@ export const services = [
   {
     id: "maintenance",
     icon: Cog,
-    title: "Facility Maintenance",
+    title: "Facility Management",
     description: "Complete facility upkeep and management",
     details: [
       "General facility cleaning and janitorial services",

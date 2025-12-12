@@ -10,10 +10,10 @@ export default function AboutPage() {
       <section className="bg-gradient-to-br from-white via-[#FEFDFD] to-[#E3B5B8]/10 pt-20 pb-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">
-            About Bash-feeq Ventures
+            About Bash-Feeq Ventures
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl">
-            Your trusted partner in facility maintenance and pest control
+            Your trusted partner in facility management and pest control
             solutions
           </p>
         </div>
@@ -26,7 +26,7 @@ export default function AboutPage() {
             <div className="relative h-96 bg-[#E3B5B8]/20 rounded-lg overflow-hidden shadow-lg">
               <Image
                 src="/professional-facility-maintenance-service.png"
-                alt="Bash-feeq Ventures team"
+                alt="Bash-Feeq Ventures team"
                 fill
                 className="object-cover"
               />
@@ -36,7 +36,7 @@ export default function AboutPage() {
                 Who We Are
               </h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Bash-feeq Ventures is a leading provider of facility maintenance
+                Bash-Feeq Ventures is a leading provider of facility management
                 and pest control services. We have established ourselves as a
                 trusted partner for businesses and organizations seeking
                 reliable, professional solutions.
@@ -75,7 +75,7 @@ export default function AboutPage() {
                 Our Mission
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                To provide superior facility maintenance and pest control
+                To provide superior facility management and pest control
                 services that exceed client expectations while promoting health,
                 safety, and environmental sustainability.
               </p>

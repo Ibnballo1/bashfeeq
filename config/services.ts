@@ -15,7 +15,7 @@ export const services = [
   },
   {
     icon: Cog,
-    title: "Facility Maintenance",
+    title: "Facility Management",
     description:
       "Complete facility upkeep including cleaning, repairs, and preventive maintenance.",
   },

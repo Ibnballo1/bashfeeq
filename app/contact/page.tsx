@@ -26,7 +26,7 @@ export default function ContactPage() {
                 Contact Information
               </h3>
 
-              <div className="flex justify-between gap-4">
+              <div className="flex flex-col md:flex-row lg:flex-row justify-between gap-4">
                 <div className="flex-1">
                   {/* Phone */}
                   <div className="mb-8 flex flex-col items-center">
@@ -48,7 +48,7 @@ export default function ContactPage() {
                       <Mail className="text-[#BA222A] shrink-0" size={24} />
                       <div>
                         <h4 className="font-semibold text-gray-900">Email</h4>
-                        <p className="text-gray-600">info@bashfeeq.com</p>
+                        <p className="text-gray-600">info@bash-feeq.com</p>
                       </div>
                     </div>
                   </div>
@@ -68,8 +68,8 @@ export default function ContactPage() {
                           </h4>
                         </div>
                         <p className="text-gray-600">
-                          Central mosques along 200 Acres Onigbogbo atan otta,
-                          Ogun state.
+                          No. 4 Crystal street, along Catholic Church road,
+                          Onigbogbo Atan-Ota, Ogun state.
                         </p>
                       </div>
                       <div>
@@ -80,7 +80,7 @@ export default function ContactPage() {
                           />
 
                           <h4 className="font-semibold text-gray-900">
-                            Second Branch
+                            2nd Branch
                           </h4>
                         </div>
                         <p className="text-gray-600">
@@ -96,11 +96,11 @@ export default function ContactPage() {
                           />
 
                           <h4 className="font-semibold text-gray-900">
-                            Third Branch
+                            3rd Branch
                           </h4>
                         </div>
                         <p className="text-gray-600">
-                          Egolo compound, Rock Stone Vila estate off Badore
+                          Egole compound, Rock Stone Vila estate off Badore
                           Lekki Ajah, Lagos.
                         </p>
                       </div>

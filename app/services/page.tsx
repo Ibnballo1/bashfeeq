@@ -22,7 +22,7 @@ export default function ServicesPage() {
             Our Services
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl">
-            Comprehensive facility maintenance and pest control solutions
+            Comprehensive facility management and pest control solutions
             tailored to your needs
           </p>
         </div>
