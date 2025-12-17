@@ -1,5 +1,3 @@
-"use client";
-
 import { Card } from "@/components/ui/card";
 import {
   Accordion,
@@ -11,6 +9,12 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { services } from "@/config/service-data";
 import { serviceBadges } from "@/config/service-badge";
+
+export const metadata = {
+  title: "Services - Bash-Feeq Ventures",
+  description:
+    "Explore the comprehensive range of pest control, fumigation, facility maintenance, and chemical supply services offered by Bash-Feeq Ventures.",
+};
 
 export default function ServicesPage() {
   return (

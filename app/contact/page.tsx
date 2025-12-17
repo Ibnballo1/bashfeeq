@@ -1,7 +1,11 @@
-"use client";
-
 import { Card } from "@/components/ui/card";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+
+export const metadata = {
+  title: "Contact Us - Bash-Feeq Ventures",
+  description:
+    "Get in touch with Bash-Feeq Ventures for inquiries, quotes, or emergency services in pest control and facility management.",
+};
 
 export default function ContactPage() {
   return (

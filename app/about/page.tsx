@@ -3,6 +3,12 @@ import Image from "next/image";
 import { CheckCircle2 } from "lucide-react";
 import { highlights, values } from "@/config/about-data";
 
+export const metadata = {
+  title: "About Us - Bash-Feeq Ventures",
+  description:
+    "Learn more about Bash-Feeq Ventures, our mission, vision, values, and commitment to excellence in facility management and pest control services.",
+};
+
 export default function AboutPage() {
   return (
     <main>

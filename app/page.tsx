@@ -1,5 +1,3 @@
-"use client";
-
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ChevronRight } from "lucide-react";
@@ -7,6 +5,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { services } from "@/config/services";
 import { equipment } from "@/config/equipments-data";
+
+export const metadata = {
+  title: "Home - Bash-Feeq Ventures",
+  description:
+    "Bash-Feeq Ventures offers professional pest control, fumigation, facility maintenance, and chemical supply services in Lagos. Quality service guaranteed.",
+};
 
 export default function HomePage() {
   return (
